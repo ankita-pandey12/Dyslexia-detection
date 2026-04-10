@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Datasets and Models 
+# (Uncomment the lines below if you want to ignore data and trained models)
+# *.csv
+# *.txt
+# *.h5
+# *.pkl
