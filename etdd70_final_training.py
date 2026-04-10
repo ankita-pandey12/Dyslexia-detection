@@ -95,7 +95,7 @@ print("\n" + "=" * 70)
 print("STEP 2 -- Load & Filter Dataset")
 print("=" * 70)
 
-df = pd.read_csv(BASE / "etdd70_final_dataset.csv")
+df = pd.read_csv(BASE / "etdd70_final_21feat.csv")
 
 # Verify all features exist
 missing = [f for f in FINAL_FEATURES if f not in df.columns]
