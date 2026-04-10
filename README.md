@@ -1,4 +1,49 @@
-# ETDD70: Eye-Tracking Dyslexia Dataset
+# Dyslexia Detection and Screening Pipeline
+
+This repository contains machine learning models and a real-time webcam screener for detecting dyslexia based on the ETDD70 Eye-Tracking dataset.
+
+## Setup and Installation
+
+### 1. Prerequisites
+Ensure you have Python 3.8+ installed.
+
+### 2. Create a Virtual Environment (Recommended)
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On MacOS/Linux:
+source venv/bin/activate
+```
+
+### 3. Install Required Libraries
+Install the necessary dependencies using pip:
+```bash
+pip install pandas numpy scikit-learn joblib matplotlib seaborn opencv-python mediapipe
+```
+
+## How to Run
+
+### Real-Time Webcam Screener
+To launch the real-time webcam dyslexia screener (which uses MediaPipe for eye tracking):
+```bash
+python dyslexia_screener.py
+```
+
+### Model Training & Tuning
+To reproduce the model training or hyperparameter tuning stages using the ETDD70 dataset:
+- **Final ML Training:** 
+  ```bash
+  python etdd70_final_training.py
+  ```
+- **Hyperparameter Tuning:**
+  ```bash
+  python etdd70_hypertuning.py
+  ```
+
+---
+
+# ETDD70 Dataset Details (Original Reference)
 
 
 ## Description
